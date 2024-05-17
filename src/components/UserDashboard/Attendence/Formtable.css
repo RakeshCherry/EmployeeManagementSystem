@@ -1,0 +1,68 @@
+.addContainer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    /* margin-top: 30px; */
+    /* background-color: rgb(201, 202, 146); */
+    /* border-radius: 1rem; */
+    /* overflow: hidden; */
+    /* box-shadow: 5px 5px 10px rgba(0,0,0,0.3); */
+    /* font-weight: 700; */
+    /* padding: 10px; */
+  }
+
+  .addContainer form{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+    border-radius: 1rem;
+    background-color: rgb(175, 175, 168);
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 1rem;
+  }
+  
+  form .close-btn{
+    align-self:flex-end;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    
+  }
+  
+  .addContainer form input{
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    width: auto;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .addContainer form .btn-submit{
+    margin-top: 10px;
+    padding: 1rem;
+    background-color: royalblue;
+    color: white;
+    font-weight: 700;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .addContainer form .btn-submit:hover{
+    background-color: rgba(247, 216, 44, 0.733);
+    color:black;
+  }

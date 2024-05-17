@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: fit-content;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.timer {
+    grid-column: span 1;
+    grid-row: span 2;
+    margin-right: 1rem;
+}
+
+.sizeClass {
+    width: 257.14px;
+    height: 137.83px;
+    border-radius: 15.43px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24);
+
+}
+
+.totalEmployees, .onTime, .absent {
+    grid-column: span 1;
+}
+
+.lateArrival, .earlyDepartures, .timeOff {
+    grid-column: span 1;
+    margin-top: 20px;
+}
+
+.totalEmployees, .onTime, .absent, .lateArrival, .earlyDepartures, .timeOff {
+    grid-row: span 1;
+    padding: 20px;
+    margin-right: 1.5rem;
+}
+.empImgNum{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.totalNum{
+    width: 68px;
+    height: 49px;
+    top: 255.09px;
+    left: 522.51px;
+    font-size: 39.09px;
+    font-weight: 300;
+    line-height: 48.86px;
+    text-align: left;
+    color:rgba(37, 44, 88, 1);
+}
+
+.empImg{
+    width: 43.2px;
+    height: 43.2px;
+    top: 253.03px;
+    left: 688.11px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color:rgba(230, 234, 245, 1);
+}
+
+h5{
+    font-size: 16.46px;
+    font-weight: 300;
+    line-height: 20.57px;
+    text-align: left;
+    color:rgba(37, 44, 88, 1);
+}
+
+.plusEmpAdd{
+    display: flex;
+    align-items: center;
+}
+
+.plus{
+    width: 15.43px;
+    height: 15.43px;
+    top: 339.43px;
+    left: 522.51px;
+    opacity: 1px;
+    border-radius: 50%;
+    background-image: url(../../../assets/Ellipse\ 238.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.decreasespan{
+    background-image: url(../../../assets/Ellipse\ 238\ red.png);
+}
+.decreasespan{
+    background-image: url(../../../assets/Ellipse\ 238\ red.png);
+}
+.increaseBlue{
+    background-image: url(../../../assets/Ellipse\ 238\ blue.png);
+}
+
+.plusImg{
+    width: 8px;
+    height: 9px;
+    color:rgba(67, 144, 12, 1);
+}
+
+.plusEmpAdd .para{
+    font-size: 13px;
+    font-weight: 300;
+    text-align: left;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr 1fr; 
+        margin-left: 1rem;
+        grid-row-gap: 1rem;
+        grid-column-gap: 4rem;
+    }
+
+    .timer {
+        grid-column: span 2; 
+    }
+    .totalEmployees, .onTime, .absent, .lateArrival, .earlyDepartures, .timeOff {
+        margin-left: -4.9rem;
+        padding: 21px;
+    }
+
+    .sizeClass {
+        width:fit-content;
+        
+    }
+    .empImgNum{
+        margin-top: -1rem;
+        display: flex;
+        align-items: center;
+    }
+    .totalNum{
+        font-size: 20px;
+    }
+    h5{
+        font-size: 12px;
+        font-weight: 400;
+        margin-bottom: -0.1rem;
+        
+    }
+    
+    .sidebar-container{
+        height:19rem;
+    }
+    .para{
+      width: 6rem;
+    }
+    .absent{
+        margin-bottom: px;
+    }
+}

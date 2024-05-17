@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: fit-content;
+}
+
+.grid-container-1 {
+    display: grid;
+    grid-template-columns: auto 1fr 1fr 1fr; /* Auto for .timer, 1fr for rest */
+    grid-gap: 15px;
+    margin-left: 3rem;
+}
+
+.timer-1 {
+    grid-column: span 1; /* .timer spans 1 column */
+    grid-row: span 2; /* .timer spans 2 rows */
+    margin-right: 1.5rem;
+}
+
+.sizeClass-1 {
+    width: 257.14px;
+    height: 137.83px;
+    border-radius: 15.43px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24);
+    
+}
+
+.totalEmployees-1, .onTime-1, .absent-1 {
+    grid-column: span 1; /* These divs span 1 column each */
+}
+
+.lateArrival-1, .earlyDepartures-1, .timeOff-1 {
+    grid-column: span 1; /* These divs span 1 column each */
+    margin-top: 20px;
+}
+
+.totalEmployees-1, .onTime-1, .absent-1, .lateArrival-1, .earlyDepartures-1, .timeOff-1 {
+    grid-row: span 1; /* All divs in the second row span 1 row */
+    padding: 10px 15px;
+    margin-right: 1rem;
+}
+.empImgNum-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-bottom: 20px; */
+}
+.Request-btn {
+    margin-top: 5rem;
+    margin-left: 6rem;
+    border:none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+}
+
+
+.blank-img{
+    width: 43.2px;
+    height: 43.2px;
+    top: 253.03px;
+    left: 688.11px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color:rgba(230, 234, 245, 1);
+}
+
+.plusEmpAdd-1{
+    display: grid;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.totalNum-1{
+    font-size: 16.46px;
+    font-weight: 500;
+    line-height: 20.57px;
+    text-align: left;
+    color:rgba(37, 44, 88, 1);
+
+}
+
+.totalUsedRem{
+    font-weight: 300;
+    font-size: 14px;
+
+}
+.color{
+    width: 16px;
+    height: 16px;
+    top: 298px;
+    left: 518px;
+    border-radius: 50%;
+    background-color: rgba(52, 231, 70, 1);
+    margin-right: 8px;  
+}
+
+
+.color-data{
+    display: flex;
+    align-items: center;
+}
+
+.leaveRequest{
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 1rem;
+    justify-content: center;
+    width: 257.14px;
+    height: 137.83px;
+    border-radius: 15.43px;
+    margin-top: 20px;
+}
+
+
+
+#form{
+    margin: auto;
+    width: 450px;
+    height: fit-content;
+    border-style: none;
+    background-color:#FFFFFF;
+    border-radius: 25px;
+
+
+
+}
+.container-Data{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+   
+}
+.Req-para{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 600;
+   font-size: 30px;
+    font-weight: 400;
+    line-height: 37.5px;
+    text-align: left;
+    color:#252C58;
+}
+#closebtn{
+    border: 0cap;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 30px;
+    margin-right: 16px;
+    color: #f43333;
+
+}
+.form-container{
+    border: 1px solid white;
+    
+}
+.form-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 23px 0 30px 0;
+}
+
+.type{
+    width: 61px;
+    height: 33px;
+    margin-right: 2.5em;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 32.5px;
+    color: #727272;
+
+}
+.form-select{
+     width: 303px;
+     height: 49px;
+     border-radius: 10px;
+
+
+}
+.start-Date{
+    margin-right: 1em;
+    font-weight: 600;
+    font-size: 16px;
+    color: #727272;
+}
+.End-Date{
+    margin-right: 1.6em;
+    font-weight: 600;
+    font-size: 16px;
+    color: #727272;
+
+}
+.res-form{
+    width: 303px;
+    height: 127px;
+    border-radius: 10px;
+    border: 2px 0px 0px 0px;
+    padding: 10px;
+}
+.reason{
+    margin-right:2.5rem;
+    margin-bottom: 25px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #727272;
+}
+.done-btn{
+     float: right;
+      margin: 0 15px 15px 0;
+      width: 6em;
+      border-radius: 8px;
+      padding: 0.4em;
+      border: 1px solid transparent;
+      font-size: 16px;
+      font-weight: 500;
+      color: white;
+      background-color:  #3354F4;
+}
+.modal-opened{
+    opacity: 0.4;
+    background: #D4DBFCB2;
+
+}
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+    .grid-container-1 {
+        grid-template-columns: 1fr 1fr; 
+        margin-left: 1rem;
+        grid-row-gap: 1rem;
+        grid-column-gap: 4rem;
+       
+    }
+
+    .timer-1 {
+        grid-column: span 2; 
+    }
+    .totalEmployees-1, .onTime-1, .absent-1, .lateArrival-1, .earlyDepartures-1, .timeOff-1 {
+        margin-left: -4.9rem;
+        padding: 21px;
+    }
+
+    .sizeClass-1 {
+        width:fit-content;
+        
+    }
+    .empImgNum-1{
+        margin-top: -1rem;
+        display: flex;
+        align-items: center;
+    }
+    .totalNum-1{
+        font-size: 20px;
+    }
+    
+    .sidebar-container{
+        height:19rem;
+    }
+    
+}

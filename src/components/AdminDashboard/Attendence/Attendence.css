@@ -1,0 +1,120 @@
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .addemployeecontainer{
+    margin-left: 3rem;
+  }
+
+  .employeeContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15.43px;
+    border-radius: 15.43px;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 1);
+    ;
+
+  }
+  .employeeHeader{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content:space-evenly;
+  }
+
+  .attendenceName{
+    font-size: 20.57px;
+    font-weight: 300;
+    justify-self: flex-start;
+
+  }
+
+  .addEmployeeBtn{
+    display: flex;
+    top: 25.71px;
+    left: 937.03px;
+    border-radius: 10.29px;
+    justify-self: flex-end;
+  }
+
+  .search-class2{
+    height: 37.03px;
+    padding-left: 15px;
+    border-radius: 10.29px;
+    border: 1.03px ;
+    background-color:#F6F6F6;
+    width:480px;
+    display: flex;
+    align-items: center;
+  }
+
+  .quick_search2{
+    width:480px;
+    border:none;
+    padding: 5px;
+    border: none;
+    margin-left: 10px;
+    background-color:#F6F6F6;
+    font-size: large;
+    outline: none;
+  }
+
+  .container_2{
+    display: flex;
+    align-items: center;
+  }
+
+  .attendecePages{
+    display: flex;
+    font-size: 15.34px;
+    font-weight: 300;
+    line-height: 19.18px;
+    justify-self: flex-start;
+    color: rgba(37, 44, 88, 1);
+    width: 98px;
+    height: 11px;
+  }
+
+  .datePicker{
+    display: flex;
+    width: 136.8px;
+    height: 41.14px;
+    border-radius: 15.43px;
+    overflow: hidden;
+    align-items: center;
+    background-color: rgb(242, 242, 242);
+    padding: 4px;
+  }
+
+  .calendarIcon{
+    margin-left: 3px;
+  }
+
+  .picker{
+    width: 100px;
+    justify-self: flex-end;
+    border: none;
+    margin-left: 5px;
+    background-color: rgb(242, 242, 242);
+    outline: none;
+  }
+
+  .tableHeader th{
+    vertical-align: middle;
+  }
+
+  .optionSelecter{
+    display: flex;
+    /* width: 136.8px;
+    height: 41.14px; */
+    border-radius: 15.43px;
+    overflow: hidden;
+    align-items: center;
+    background-color: rgb(242, 242, 242);
+    padding: 4px;
+  }

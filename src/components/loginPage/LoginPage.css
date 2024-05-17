@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lexend+Deca:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.main-container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #e3e8f1;
+}
+
+.logo{
+  position: absolute;
+  top:0;
+  left:0;
+  /* left:0; */
+  width: 110.97px;
+  height: 65.57px;
+  overflow: hidden;
+  border-radius: 0 0 10px 0;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container_1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40vw;
+}
+
+.container_1 h1{
+  font-weight: 400;
+  font-size: 45px;
+
+}
+
+.container_1 .kitGlobal{
+  color: rgba(1, 41, 112, 1);
+  font-weight: 400;
+  font-size: 3vw;
+}
+
+.container_1 .kitPara{
+  color: rgba(117, 127, 142, 1);
+  font-size: 13px;
+  padding-right: 4rem;
+}
+
+.logInSelection{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.loginCheckbox{
+  display: flex;
+  align-items: center;
+  width:217.05px;
+  height:58.72pxpx;
+  padding: 16.78px 8.39px 16.78px 8.39px;
+  gap: 12.58px;
+  border-radius: 8.39px;
+  border: 1.05px solid rgba(95, 110, 241, 1);
+  margin-right: 2.5rem;
+  background-color: rgb(240, 244, 251);
+}
+
+.userCheckbox{
+  display: flex;
+  width:200px;
+  height:58px;
+  padding: 16.78px;
+  gap: 12.58px;
+  border-radius: 8.39px;
+  border: 1.05px;
+  background-color: rgb(240, 244, 251);
+}
+
+  .userCheckbox input{
+    width: 25.17px;
+    height: 25.17px;
+    border: 1.05px 0px 0px 0px;
+
+    
+
+}
+
+.emp_adm_Label{
+  color:rgba(60, 78, 241, 1);
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: left;
+  align-self: center;
+
+}
+
+h1{
+  font-weight: 400;
+  color:#212529;
+}
+
+.formClass{
+  width: 40vw;
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: Fixed (482.12px)px;
+  top: 117.2px;
+  left: 720px;
+  padding: 50.33px 51.38px 50.33px 51.38px;
+  gap: 27.26px;
+  border-radius: 41.94px;
+  box-shadow: 0px 4.194174766540527px 4.194174766540527px 0px rgba(0, 0, 0, 0.25);
+  border: 1.05px solid rgba(0, 0, 0, 0.13)
+}
+
+.inputFields{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* margin-bottom: s; */
+}
+
+.userField{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.userLabel{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25.17px;
+  color:rgba(33, 37, 41, 1);
+  width: 69.2px;
+  height: 26px;
+}
+
+.userInput{
+  height: 50px;
+  border-radius: 1rem;
+  border: 1.05px;
+  border: 1.05px solid rgba(206, 212, 218, 1);
+  padding-right: 20px;
+  vertical-align:middle;
+  padding-left: 20px;
+  outline: none;
+}
+
+.password-input-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-top: 2rem;
+}
+
+.password-input-container input{
+  width: 550px;
+}
+
+.eye-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.text-danger{
+  margin-left: 10px;
+}
+
+.form-control{
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+
+.rememberme{
+  display: flex;
+  align-items: center;
+  height: 26px;
+}
+
+.remembermeCheck{
+  width: 16.78px;
+  height: 16.78px;
+  top: 342.87px;
+  left: 51.38px;
+  padding: 5.87px 4.19px 5.87px 5.03px;
+  border-radius: 4.19px;
+  border: 1.05px solid rgba(13, 110, 253, 1)
+
+}
+.remembermeLabel{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  margin-left: 1rem;
+
+}
+
+.submitBtn{
+  height: 50px;
+  top: 391.94px;
+  left: 51.38px;
+  background-color: rgba(65, 84, 241, 1);
+  border-radius: 10px;
+  border: none;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25.17px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+
+
+@media (max-width: 950px) {
+  .main-container {
+    height: auto;
+    overflow: scroll;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo{
+    position: relative;
+    border-radius: 0 0 10px 10px;
+  }
+
+  .container_1{
+    text-align: center;
+  }
+
+  .container_1 .kitPara{
+    padding-right: 7rem;
+    padding-left: 7rem;
+  }
+
+  .container_1{
+    width: 80vw;
+  }
+
+  .formClass{
+    width: 80vw;
+  }
+
+  .logInSelection{
+    gap: 30px;
+  }
+
+  .loginCheckbox {
+    /* width: 80%; */
+    margin-right: 0;
+  }
+
+  .remembermeCheck {
+    margin-left: 0.5rem;
+  }
+}
+
+@media (max-width: 850px) {
+
+  .main-container {
+    width: 100vw;
+    height: auto;
+    overflow: scroll;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo{
+    position: relative;
+    overflow: hidden;
+    border-radius: 0 0 10px 10px;
+  }
+
+  .container_1{
+    text-align: center;
+    width: 35rem;
+  }
+  .container_1 h1 {
+    font-size: 30px;
+  }
+
+  .container_1 .kitGlobal {
+    font-size: 4vw;
+  }
+
+  .container_1 .kitPara {
+    font-size: 12px;
+    
+  }
+
+  .logInSelection{
+    gap: 30px;
+  }
+
+  .formClass {
+    width: 90vw;
+    height: auto;
+    padding: 2rem;
+  }
+
+  .userLabel {
+    font-size: 16px;
+  }
+
+  .userInput {
+    font-size: 16px;
+  }
+
+  .remembermeLabel {
+    font-size: 16px;
+  }
+
+  .submitBtn {
+    font-size: 16px;
+  }
+}

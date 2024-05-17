@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    background-color: rgb(240, 241, 245);
+}
+  
+  .attendence-container{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  details{
+    align-self: center;
+    margin-top: 3rem;
+    font-size: 30px;
+    color: rgba(231, 153, 6, 0.74);
+    word-spacing: 2px;
+    letter-spacing: 3px;
+  }
+  
+  /* .options{
+    display: flex;
+    margin: 20px auto;
+    width: 350px;
+    height: 40px;
+    background-color: rgb(182, 241, 182);
+    border-radius: 5px;
+  } */
+  
+  .attemdeceBtn{
+    align-self:flex-start;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    padding: 10px 1rem;
+    align-self: center;
+    margin-top: 10px;
+    margin-right: 230px;
+    font-weight: 600;
+  }
+  .table-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    width: fit-content;
+  }
+  
+  
+  
+  .table-container table thead tr{
+    background-color: rgba(243, 233, 235, 0.384);
+    
+  }
+  
+  .table-container table thead tr th,
+  .table-container table tbody tr td{
+    min-width: 150px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .table-container table tbody tr td{
+    border-bottom: 1px solid black;
+  }
+  
+  .btn-2{
+    align-self:flex-start;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    padding: 10px 1rem;
+    align-self: center;
+    margin-right: 10px;
+    font-weight: 600;
+    background-color: rgb(144, 144, 241);
+  }
+  
+  .btn-delete{
+    color: white;
+    background-color: rgba(218, 32, 32, 0.815);
+  }
+  .btn-edit{
+    color: black;
+    background-color: rgba(87, 238, 87, 0.884)
+  }
+  
+  .empty-table{
+    text-align: center;
+    font-weight: 500;
+    font-style: italic;
+  }
